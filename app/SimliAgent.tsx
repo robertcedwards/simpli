@@ -154,7 +154,7 @@ const SimliAgent: React.FC<SimliAgentProps> = ({ onStart, onClose }) => {
               <IconSparkleLoader className="h-[20px] animate-loader" />
             ) : (
               <span className="font-abc-repro-mono font-bold w-[164px]">
-                Test Interaction
+                Talk with Warren
               </span>
             )}
           </button>
