@@ -45,29 +45,6 @@ const Demo: React.FC = () => {
           />
         </div>
       </div>
-
-      <div className="max-w-[350px] font-thin flex flex-col items-center ">
-        <span className="font-bold mb-[8px] leading-5 ">
-          {" "}
-          Create Simli Agent is a starter repo for creating visual avatars with
-          Simli{" "}
-        </span>
-        <ul className="list-decimal list-inside max-w-[350px] ml-[6px] mt-2">
-          <li className="mb-1">
-            Fill in your Simli API keys in .env file.
-          </li>
-          <li className="mb-1">
-            Create your Simli avatar at app.simli.com
-          </li>
-          <li className="mb-1">
-            Copy code output from app.simli.com and paste in <code>app/SimliAgent.tsx</code>.
-          </li>
-        </ul>
-        <span className=" mt-[16px]">
-          You can now deploy this app to Vercel, or incorporate it as part of
-          your existing project.
-        </span>
-      </div>
     </div>
   );
 };
